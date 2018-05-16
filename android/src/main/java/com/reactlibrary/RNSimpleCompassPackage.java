@@ -16,7 +16,7 @@ public class RNSimpleCompassPackage implements ReactPackage {
       return Arrays.<NativeModule>asList(new RNSimpleCompassModule(reactContext));
     }
 
-    @Override
+    // @Override
     public List<Class<? extends JavaScriptModule>> createJSModules() {
       return Collections.emptyList();
     }
